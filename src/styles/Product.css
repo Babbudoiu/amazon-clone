@@ -10,6 +10,12 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
+  transition: all .2s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 11px rgba(33,33,33,1); 
 }
 
 .product-rating {
